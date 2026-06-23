@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Модели</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    .Zagolovok{
+        text-align: center;
+        padding: 40px;
+    }
+    .btn{
+        background-color: orange;
+    }
+</style>
+<body>
+
+    
+    <h1 class="Zagolovok">Мои 3D модели</h1>
+    
+
+    <div class="container flex">
+
+        <div class="card">
+            <img src="/images/styl.png" alt="Model 1" class="w-[400px] h-[350px] object-cov">
+            <h2>Стул</h2>
+
+            <a href="model.html?file=models/Styl1.glb" class="btn">
+                Посмотреть
+            </a>
+
+            <a href="models/Styl1.glb" download class="btn">
+                Скачать
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="/images/stol.png" alt="Model 2"   class="w-[400px] h-[350px] object-cover">
+            <h2>Стол</h2>
+
+            <a href="model.html?file=models/stol.glb" class="btn">
+                Посмотреть
+            </a>
+
+            <a href="models/stol.glb" download class="btn">
+                Скачать
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="/images/robotkp11.png" alt="Model 3"   class="w-[400px] h-[350px] object-cover">
+            <h2>Робот кп11</h2>
+
+            <a href="model.html?file=models/robot11.glb" class="btn">
+                Посмотреть
+            </a>
+
+            <a href="models/robot11.glb" download class="btn">
+                Скачать
+            </a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
